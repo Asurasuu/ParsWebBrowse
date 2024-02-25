@@ -46,9 +46,6 @@ namespace ParsWebBrowse
                             Console.WriteLine("Приступаю к скачиванию");
 
                             WebClient client = new WebClient();
-                            
-                            // url -> https://onmirtales.net/onmir-the-oddity/chapter-1/
-                            // daseDir -> C:\Users\asurasuu\манга\Странность Онмир\Глава 1\Исходники
 
                             client.DownloadFile(cc.url, cc.baseDirToSave + "\\index.php");
 
