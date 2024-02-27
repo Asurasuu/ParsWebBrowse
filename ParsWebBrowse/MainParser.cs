@@ -8,6 +8,14 @@ namespace ParsWebBrowse
         private string? url, baseDirToSave;
         private string[] urlsFiles;
         private List<string> urls = new List<string>();
+        
+        /*
+         TODO
+            - Показывать процесс выполнения
+            - Показывать окончание процесса
+            - Обработка ошибок
+            - Кастомизация тэга в котором мы ищем данные
+         */
 
         public void MasterStr()
         {
@@ -85,8 +93,6 @@ namespace ParsWebBrowse
                         }
 
                     }
-
-
                 }
                 else
                 {
